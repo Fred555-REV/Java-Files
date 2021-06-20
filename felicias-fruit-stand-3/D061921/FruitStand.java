@@ -21,9 +21,9 @@ public class FruitStand {
         for (int p = 0; p < meatAmount; p++) {
             System.out.println("Enter meat name: ");
             String name = scan.nextLine();
-            int amount = (int) (Math.random() * 10) + 1;
+            int amount = (int) (Math.random() * 10) + 2;
             int price = (int) (Math.random() * 10) + 1;
-            int weight = (int) (Math.random() * 3) + 1;
+            int weight = (int) (Math.random() * 5) + 2;
             System.out.println("Enter meat cut: ");
             String cut = scan.nextLine();
             System.out.println("Is the meat cooked? Enter: true/false ");
@@ -40,9 +40,9 @@ public class FruitStand {
         for (int o = 0; o < fruitAmount; o++) {
             System.out.println("Enter fruit name: ");
             String name = scan.nextLine();
-            int amount = (int) (Math.random() * 10) + 1;
+            int amount = (int) (Math.random() * 10) + 2;
             int price = (int) (Math.random() * 10) + 1;
-            int weight = (int) (Math.random() * 3) + 1;
+            int weight = (int) (Math.random() * 5) + 2;
             System.out.println("Enter fruit color: ");
             String color = scan.nextLine();
             System.out.println("Enter fruit size: small/medium/large");
