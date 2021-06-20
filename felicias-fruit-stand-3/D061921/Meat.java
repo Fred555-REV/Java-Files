@@ -20,9 +20,9 @@ public class Meat extends Product {
             cooked = "raw";
         }
         if (amount > 1 || amount == 0) {
-            return "There are " + amount + " " + cooked + " " + name + " " + cut + "s that weigh a total of " + weight + " pounds, they each cost $" + price + " each.";
+            return "There are " + amount + " " + cooked + " " + name + " " + cut + "s that weigh a total of " + weight + " pounds, they each cost $" + price + ".";
         } else if (amount == 1) {
-            return "There is " + amount + " " + cooked + " " + name + " " + cut + " that weighs " + weight + " pounds, it costs $" + price;
+            return "There is " + amount + " " + cooked + " " + name + " " + cut + " that weighs " + weight + " pounds, it costs $" + price + ".";
         }
         return "ERR negative amount";
     }
