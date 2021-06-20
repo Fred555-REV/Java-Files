@@ -64,6 +64,7 @@ public class FruitStand {
         System.out.println("Enter index: ");
         int indexI = scan.nextInt();
         displayProduct(productList, indexI);
+        scan.close();
     }
 
     public static void displayProducts(List productList) {
