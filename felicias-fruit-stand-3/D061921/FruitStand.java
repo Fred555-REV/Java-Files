@@ -68,8 +68,8 @@ public class FruitStand {
     }
 
     public static void displayProducts(List productList) {
-        for (int i = 0; i < productList.size(); i++) {
-            System.out.println(productList.get(i));
+        for (Object o : productList) {
+            System.out.println(o);
         }
     }
 
