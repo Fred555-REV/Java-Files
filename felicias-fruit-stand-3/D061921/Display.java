@@ -3,7 +3,7 @@ package D061921;
 import java.util.List;
 
 public class Display {
-    public static void displayProducts(List productList, String type, int fruitA, int meatA) {
+    public static void displayProducts(List<Product>, productList, String type, int fruitA, int meatA) {
 
         switch (type) {
             case "meat":
