@@ -68,30 +68,13 @@ public class FruitStand {
     }
 
     public static void displayProducts(List<Product> productList) {
-        for (Product o : productList) {
-            System.out.println(o);
+        for (Product product : productList) {
+            System.out.println(product);
         }
     }
 
-//    public static void displayProductsOfType(List productList, String type, int fruitA, int meatA) {
-//
-//        switch (type) {
-//            case "meat":
-//                for (int i = 0; i < productList.size() - fruitA; i++) {
-//                    System.out.println(productList.get(i));
-//                }
-//                break;
-//            case "fruit":
-//                for (int i = meatA; i < productList.size(); i++) {
-//                    System.out.println(productList.get(i));
-//                }
-//                break;
-//        }
-//    }
-
-    public static void displayProduct(List productList, int indexI) {
-
-        System.out.println(productList.get(indexI));
+    public static void displayProduct(List<Product> productList, int index) {
+        System.out.println(productList.get(index));
     }
 
 }
