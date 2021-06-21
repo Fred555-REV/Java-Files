@@ -10,8 +10,8 @@ public class FruitStand {
     public static void main(String[] args) {
         // write your code here
         List<Product> productList = new ArrayList<>();
-        List<Meat> meatList = new ArrayList<>();
-        List<Fruit> fruitList = new ArrayList<>();
+//        List<Meat> meatList = new ArrayList<>();
+//        List<Fruit> fruitList = new ArrayList<>();
         Scanner scan = new Scanner(System.in);
 
         System.out.println("Enter amount of different meats: ");
@@ -30,7 +30,7 @@ public class FruitStand {
             boolean isCooked = scan.nextBoolean();
             scan.nextLine();
             productList.add(new Meat(name, amount, price, weight, cut, isCooked));
-            meatList.add(new Meat(name, amount, price, weight, cut, isCooked));
+//            meatList.add(new Meat(name, amount, price, weight, cut, isCooked));
         }
 
         System.out.println("Enter amount of different fruits: ");
@@ -48,7 +48,7 @@ public class FruitStand {
             System.out.println("Enter fruit size: small/medium/large");
             String size = scan.nextLine();
             productList.add(new Fruit(name, amount, price, weight, color, size));
-            fruitList.add(new Fruit(name, amount, price, weight, color, size));
+//            fruitList.add(new Fruit(name, amount, price, weight, color, size));
         }
 //        System.out.println(meatList);
 //        System.out.println(fruitList);
