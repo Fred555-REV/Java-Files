@@ -18,9 +18,9 @@ public class Product {
 
     public String toString() {
         if (amount > 1 || amount == 0) {
-            return "There are " + amount + " " + name + "s that weigh a total of " + weight + " pounds, they each cost $" + price + " each.";
+            return "There are " + amount + " " + name + "s that weigh a total of " + weight + " pounds, they each cost $" + price + ".";
         } else if (amount == 1) {
-            return "There is " + amount + " " + name + " that weighs " + weight + " pounds, it costs $" + price;
+            return "There is " + amount + " " + name + " that weighs " + weight + " pounds, it costs $" + price + ".";
         }
         return "ERR negative amount";
     }
